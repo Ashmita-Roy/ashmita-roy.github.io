@@ -5,25 +5,25 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Senior Business Intelligence Analyst",
+    cardImage: "assets/images/experience-page/10MS.png",
+    place: "10 Minute School",
+    time: "(March, 2024 - Present)",
+    desp: "<li>Lead Generation Management</li><li>ETL Issues Examination and Data Discrepancy Management</li><li>Documented 4 Dashboards for Enhanced Clarity and Accessibility</li><li>Dashboard Maintenance</li><li>Provided Cross-Functional Support and Delivered Key Analytical Contributions</li>"
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Business Intelligence Analyst",
+    cardImage: "assets/images/experience-page/Daraz.png",
+    place: "Daraz Bangladesh Ltd.",
+    time: "(July, 2022 - February, 2024)",
+    desp: "<li>Worked on comprehensive data analysis by extracting, transforming and processing complex datasets to provide strategic plans to optimize business performance.</li><li>Provide continuous data support to stakeholders, specifically during campaign time to track daily performance and present actionable insights to senior management for informed decision-making</li><li>Create and maintain executive dashboards and reports with visualization tools, allowing stakeholders to readily access and understand data</li><li>Conduct extensive ad hoc analytics to assist various business functions like seller and customer segmentation, reimbursement, penalty, market trends, etc.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Junior Data Analyst",
+    cardImage: "assets/images/experience-page/Sheba.png",
+    place: "Sheba Platform Ltd.",
+    time: "(February, 2022 - June, 2022)",
+    desp: "<li>Worked on data handling and manipulating, prediction analysis to provide concrete assistance to business unit for the company growth decisions, dashboard creation to organize and interpret data properly and cohort analysis</li>",
   },
 ];
 
@@ -62,29 +62,24 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Research Intern of Satyendra Nath Bose Summer Internship Program 2020",
+    cardImage: "assets/images/experience-page/researchintern2.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Worked on a research-based project with Machine Learning on Health Security Parameters to make awareness during COVID-19.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Data Analyst Intern at Amar iSchool",
+    cardImage: "assets/images/experience-page/AmariSchool.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Worked on reports and dashboards related to the growth and development of the website using Google Data Studio and projected ideas and planning for various events based on reports",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Trainee Teacher at Cybeorg",
+    cardImage: "assets/images/experience-page/cybeorg.png",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Taught block-based coding (Scratch, code.org, etc.) and basic programming virtually to school-going students of different countries.",
   },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
+  
 ];
 
 const showCards = () => {
@@ -106,121 +101,37 @@ const showCards = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards);
 
-// Hackathon Section
+// Participation Section
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-    href: "https://uplift.girlscript.tech/",
+    title: "Robotics Workshop",
+    subtitle: "Participant",
+    image: "assets/images/experience-page/robo.jpg",
+    desp: "Completed a project by learning the form and mechanisms of Arduino and practicing the basic programming knowledge of Arduino to create a programmed control robot - 2018",
+    // href: "https://uplift.girlscript.tech/",
   },
   {
-    title: "ULHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/ulhacks.png",
-    desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-    href: "https://ulhacks.com/",
+    title: "NITS Model United Nation (MUN)",
+    subtitle: "Participant",
+    image: "assets/images/experience-page/mun.jpg",
+    desp: "Presented the aspects of a given country on a specified topic as the delegate of the country and developed public speaking skill - 2018",
+    // href: "https://ulhacks.com/",
   },
   {
-    title: "WaffleHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/wafflehacks.png",
-    desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-    href: "https://wafflehacks.org/",
-  },
-  {
-    title: "Elevate Tech",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/elevate.png",
-    desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-    href: "https://elevatetech.codes/",
-  },
-  {
-    title: "PitchTeen",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/pitchteen.png",
-    desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-    href: "https://www.linkedin.com/company/pitchteen/about/",
-  },
-  {
-    title: "Hack-A-Solution",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hackasolution.png",
-    desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
-    href: "https://hackasolution.devpost.com/",
-  },
-  {
-    title: "UniGlobe Hacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/uniglobe.png",
-    desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-    href: "https://uniglobe-hacks.devpost.com/",
-  },
-  {
-    title: "AtlasHacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/atlas.png",
-    desp: "AtlasHacks II is a 3-day virtual hackathon that aims to foster creativity within hackers all around the world.",
-    href: "https://atlashacks2.devpost.com/",
-  },
-  {
-    title: "NeoHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/neo.png",
-    desp: "NeoHacks is an upcoming 48-hour hackathon taking place July 23-25, 2021 where hundreds of students from around the world will come together virtually to learn new skills, meet new friends, and build awesome projects. We provide beginner-friendly workshops, mentorship, fun games, and more.",
-    href: "https://neohacks.org/",
-  },
-  {
-    title: "Mission Inspired",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/mission.png",
-    desp: "InspireEd Hacks is a nationwide initiative organized by the student-for-student nonprofit, Mission InspirEd, challenging students ages 10-18 to synthesize their creativity and coding experience into a product beneficial to the educational community.",
-    href: "https://www.missioninspired.org/hackathon",
-  },
-  {
-    title: "Hack3",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hack3.png",
-    desp: "Hack3 2021 is an upcoming global online hackathon that aims to enable high school students to learn computer science, with a broader message of (everyone can code) targeting underrepresented demographics to improve diversity and inclusion of individuals in the computer technology space.",
-    href: "https://hack3.co/",
-  },
-  {
-    title: "JITHack",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/jithack.png",
-    desp: "JITHack is an upcoming virtual design and development hackathon organized by the students of Jyothy Institute of Technology, Bengaluru on June 26, 2021, where participants have 24 hours to build something incredible.",
-    href: "https://jithack.netlify.app/",
-  },
-  {
-    title: "Recess Hacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/recess.png",
-    desp: "Recess Hacks is an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
-    href: "https://recesshacks.com/",
-  },
-  {
-    title: "Citro Tech",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/citro.png",
-    desp: "Citro Hacks 2021 is an upcoming all-inclusive online hackathon organized by Citro Tech, a student led organization dedicated to empowering minorities in the tech field</li>",
-    href: "https://citro.tech/",
-  },
-  {
-    title: "NHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/nhacks.png",
-    desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
-    href: "https://nhacks-vi.devpost.com/",
+    title: "TedX NITS",
+    subtitle: "Volunteer",
+    image: "assets/images/experience-page/Tedx_NITS.png",
+    desp: "Organized the event by managing event tasks and volunteering works - 2019",
+    // href: "https://ulhacks.com/",
   },
 ];
 
 const showCards3 = () => {
   let output = "";
   mentor.forEach(
-    ({ title, image, subtitle, desp, href }) =>
+    ({ title, image, subtitle, desp }) =>
       (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
@@ -229,8 +140,7 @@ const showCards3 = () => {
         <div class="blog-slider__content">
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
-          <div class="blog-slider__text">${desp}</div>
-          <a href="${href}" class="blog-slider__button">Read More</a>   
+          <div class="blog-slider__text">${desp}</div>  
         </div>
       </div>
       `)
