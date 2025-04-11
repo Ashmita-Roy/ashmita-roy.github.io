@@ -1,3 +1,3 @@
-![Awesome Portfolio Website](./readme_assets/banner_apw.png)
+![Personal Portfolio](./readme_assets/portfolio_front_page.jpg)
 
 
